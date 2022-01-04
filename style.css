@@ -278,7 +278,7 @@
   text-decoration: underline;
 }
 
-@media (min-width: 375px) and (max-width: 770px) {
+@media (min-width: 250px) and (max-width: 770px) {
   .card-layout {
     box-shadow: unset;
     border: none;
@@ -302,27 +302,4 @@
   }
 }
 
-@media (min-width: 100px) and (max-width: 375px) {
-  .card-layout {
-    box-shadow: unset;
-    border: none;
-    padding: 0 32px;
-    margin: unset;
-  }
-
-  .linkedin-logo{
-      display: block;
-      margin: 32px 32px 16px;
-  }
-
-  .main-content{
-      justify-content: unset;
-      margin: unset;
-      align-items: center;
-  }
-
-  .footer-base{
-      display: none;
-  }
-}
 
